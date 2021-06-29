@@ -1,0 +1,90 @@
+body {
+	background: linear-gradient(rgba(22, 23, 67, 0.5), rgba(22, 23, 67, 0.5)), url("Assets/gd.png");
+	background-color: #161743;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 99vw;
+	font-family: "Raleway", sans-serif;	
+	z-index: 1;
+}
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.navbar ul li:first-child {
+	float: left;
+}
+.navbar ul li {
+	float: right;
+	padding: 15px;
+}
+.navbar ul li a {
+	display: block;
+	padding: 15px;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	background: rgba(49, 120, 181, 0.55);
+	transition: 0.3s ease all;
+}
+.navbar ul li a:hover {
+	background-color: white;
+	color: black;
+}
+.main-wrapper {
+	height: 100vh;
+	padding: 75px;
+}
+.card-wrapper {
+	width: 30%;
+	height: 400px;
+	position: relative;
+	background: rgba(88, 89, 134, 0.6);
+	color: white;
+	float: left;
+	padding: 10px;
+	margin: 0 0 30px 15px;
+	border-radius: 30px;
+	text-align: center;
+	font-family: Raleway, sans-serif;
+}
+.card-logo {
+	padding: 5px;
+}
+.card-logo img {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+.card-designation {
+	padding: 3px;
+}
+.card-link {
+	position: absolute;
+    bottom: 0%;
+    left: 50%;
+    width: 94%;
+	transform: translate(-50%, 0);
+	padding: 10px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	background: rgba(128, 129, 174, 0.4);
+}
+.card-link a {
+	text-decoration: none;
+	color: white;
+}
+
+
+@media screen and (max-width: 992px) {
+	.card-wrapper {
+		width: 45%;
+	}
+}
